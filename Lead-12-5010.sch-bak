@@ -885,17 +885,6 @@ F 3 "~" H 13400 5450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male OUT1
-U 1 1 5E5E9848
-P 15600 5900
-F 0 "OUT1" H 15572 5832 50  0000 R CNN
-F 1 "OUT" H 15572 5923 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15600 5900 50  0001 C CNN
-F 3 "~" H 15600 5900 50  0001 C CNN
-	1    15600 5900
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R_POT LEVEL1
 U 1 1 5DD00168
 P 15050 5900
@@ -1257,7 +1246,6 @@ F 3 "~" H 15400 6200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	15400 6050 15400 5900
-Connection ~ 15400 5900
 $Comp
 L power:GND #PWR0101
 U 1 1 5E26480D
@@ -1286,4 +1274,21 @@ F 3 "~" H 9450 5900 50  0001 C CNN
 	1    9450 5900
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector:Conn_01x02_Male OUT1
+U 1 1 5E2B9C12
+P 15700 5900
+F 0 "OUT1" H 15808 6081 50  0000 C CNN
+F 1 "OUT" H 15808 5990 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 15700 5900 50  0001 C CNN
+F 3 "~" H 15700 5900 50  0001 C CNN
+	1    15700 5900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 5900 15500 6000
+Wire Wire Line
+	15500 5900 15400 5900
+Connection ~ 15500 5900
+Connection ~ 15400 5900
 $EndSCHEMATC
