@@ -1,64 +1,65 @@
-"Source:"	"C:\Users\Dario\Documents\KiCad\Projects\Lead 12 5010\Lead-12-5010.sch"
-"Date:"	"24/01/2020 23:07:03"
-"Tool:"	"Eeschema (5.1.4)-1"
-"Component Count:"	"59"
-"Ref"	"Value"	"Part"	"Footprint"	"Description"	"Vendor"
-"BASS1"	"A1M"	"Device:R_POT"	"Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal"	"Potentiometer"	""
-"BOOST1"	"25K"	"Device:R_POT"	"Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"	"Potentiometer"	""
-"C1"	"100u/35V"	"Device:CP"	"Capacitor_THT:CP_Radial_D10.0mm_P3.50mm"	"Polarized capacitor"	""
-"C2"	"100u/25V"	"Device:CP"	"Capacitor_THT:CP_Radial_D10.0mm_P3.50mm"	"Polarized capacitor"	""
-"C3"	"100n"	"Device:C"	"Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4"	"Unpolarized capacitor"	""
-"C4"	"220p"	"Device:C"	"Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"	"Unpolarized capacitor"	""
-"C5"	"2n2"	"Device:C"	"Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"	"Unpolarized capacitor"	""
-"C6"	"2u2"	"Device:CP"	"Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"	"Polarized capacitor"	""
-"C7"	"47n"	"Device:C"	"Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4"	"Unpolarized capacitor"	""
-"C8"	"2u2"	"Device:CP"	"Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"	"Polarized capacitor"	""
-"C9"	"100p"	"Device:C"	"Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"	"Unpolarized capacitor"	""
-"C10"	"47n"	"Device:C"	"Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4"	"Unpolarized capacitor"	""
-"C11"	"220p"	"Device:C"	"Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"	"Unpolarized capacitor"	""
-"C12"	"47n"	"Device:C"	"Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4"	"Unpolarized capacitor"	""
-"C13"	"4n7"	"Device:C"	"Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"	"Unpolarized capacitor"	""
-"C14"	"47u"	"Device:CP"	"Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"	"Polarized capacitor"	""
-"C15"	"220p"	"Device:C"	"Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"	"Unpolarized capacitor"	""
-"C16"	"2u2/25V"	"Device:CP"	"Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"	"Polarized capacitor"	""
-"C17"	"22n"	"Device:C"	"Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"	"Unpolarized capacitor"	""
-"C18"	"2n2"	"Device:C"	"Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"	"Unpolarized capacitor"	""
-"D1"	"1N914"	"Diode:1N914"	"Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"	"100V 0.3A Small Signal Fast Switching Diode, DO-35"	""
-"D2"	"1N914"	"Diode:1N914"	"Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"	"100V 0.3A Small Signal Fast Switching Diode, DO-35"	""
-"GAIN1"	"B22K"	"Device:R_POT"	"Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal"	"Potentiometer"	""
-"GND1"	"GND"	"Connector:Conn_01x01_Male"	"Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"	"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"	""
-"GND2"	"GND"	"Connector:Conn_01x01_Male"	"Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"	"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"	""
-"H1"	"MountingHole"	"Mechanical:MountingHole"	"MountingHole:MountingHole_3.2mm_M3"	"Mounting Hole without connection"	""
-"H2"	"MountingHole"	"Mechanical:MountingHole"	"MountingHole:MountingHole_3.2mm_M3"	"Mounting Hole without connection"	""
-"H3"	"MountingHole"	"Mechanical:MountingHole"	"MountingHole:MountingHole_3.2mm_M3"	"Mounting Hole without connection"	""
-"H4"	"MountingHole"	"Mechanical:MountingHole"	"MountingHole:MountingHole_3.2mm_M3"	"Mounting Hole without connection"	""
-"H5"	"MountingHole"	"Mechanical:MountingHole"	"MountingHole:MountingHole_3.2mm_M3"	"Mounting Hole without connection"	""
-"H6"	"MountingHole"	"Mechanical:MountingHole"	"MountingHole:MountingHole_3.2mm_M3"	"Mounting Hole without connection"	""
-"IN_HIGH_1"	"IN_HIGH"	"Connector:AudioJack2_Switch"	"Audio Jacks:6.35MM_STEREO_SWITCHED_JACK"	"Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)"	""
-"IN_LOW_1"	"IN_LOW"	"Connector:AudioJack2_Switch"	"Audio Jacks:6.35MM_STEREO_SWITCHED_JACK"	"Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)"	""
-"L1"	"5m"	"Device:L"	"Inductor_THT:L_Radial_D6.0mm_P4.00mm"	"Inductor"	""
-"LEVEL1"	"A100K"	"Device:R_POT"	"Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal"	"Potentiometer"	""
-"Logo1"	"Logo"	"Mechanical:MountingHole"	"toad-logo:toad"	"Mounting Hole without connection"	""
-"MID1"	"B22K"	"Device:R_POT"	"Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal"	"Potentiometer"	""
-"OUT1"	"OUT"	"Connector:Conn_01x02_Male"	"TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal"	"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"	""
-"PRESENCE1"	"B22K"	"Device:R_POT"	"Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal"	"Potentiometer"	""
-"R1"	"10R"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R2"	"22K"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R3"	"22K"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R4"	"1K"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R5"	"10K"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R6"	"220K"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R7"	"22K"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R8"	"100R"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R9"	"100R"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R10"	"10K"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R11"	"470R"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R12"	"10K"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R13"	"68k"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R14"	"4K7"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R15"	"1K"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"R16"	"10K"	"Device:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"	"Resistor"	""
-"TREBLE1"	"B220K"	"Device:R_POT"	"Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal"	"Potentiometer"	""
-"U1"	"TL082"	"Amplifier_Operational:TL082"	"Package_DIP:DIP-8_W7.62mm_Socket"	"Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"	""
-"U2"	"TL082"	"Amplifier_Operational:TL082"	"Package_DIP:DIP-8_W7.62mm_Socket"	"Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"	""
-"Vcc1"	"Vcc"	"Connector:Conn_01x02_Male"	"TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal"	"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"	""
+Source:	\KiCad\Projects\Lead 12 5010\Lead-12-5010.sch
+Date:	19/02/2020 16:28:15
+Tool:	Eeschema (5.1.4)-1
+Component Count:	59
+
+Ref			Value		Part	Footprint	Description	Vendor
+C1			100u/35V	Device:CP	Capacitor_THT:CP_Radial_D10.0mm_P3.50mm	Polarized capacitor	
+C2			100u/25V	Device:CP	Capacitor_THT:CP_Radial_D10.0mm_P3.50mm	Polarized capacitor	
+C3			100n		Device:C	Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4	Unpolarized capacitor	
+C4			220p		Device:C	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm	Unpolarized capacitor	
+C5			2n2			Device:C	Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2	Unpolarized capacitor	
+C6			2u2			Device:CP	Capacitor_THT:CP_Radial_D8.0mm_P3.50mm	Polarized capacitor	
+C7			47n			Device:C	Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4	Unpolarized capacitor	
+C8			2u2			Device:CP	Capacitor_THT:CP_Radial_D8.0mm_P3.50mm	Polarized capacitor	
+C9			100p		Device:C	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm	Unpolarized capacitor	
+C10			47n			Device:C	Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4	Unpolarized capacitor	
+C11			220p		Device:C	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm	Unpolarized capacitor	
+C12			47n			Device:C	Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4	Unpolarized capacitor	
+C13			4n7			Device:C	Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2	Unpolarized capacitor	
+C14			47u			Device:CP	Capacitor_THT:CP_Radial_D8.0mm_P3.50mm	Polarized capacitor	
+C15			220p		Device:C	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm	Unpolarized capacitor	
+C16			2u2/25V		Device:CP	Capacitor_THT:CP_Radial_D8.0mm_P3.50mm	Polarized capacitor	
+C17			22n			Device:C	Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2	Unpolarized capacitor	
+C18			2n2			Device:C	Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2	Unpolarized capacitor	
+
+D1			1N914		Diode:1N914	Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal	100V 0.3A Small Signal Fast Switching Diode, DO-35	
+D2			1N914		Diode:1N914	Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal	100V 0.3A Small Signal Fast Switching Diode, DO-35	
+
+IN_HIGH_1	IN_HIGH		Connector:AudioJack2_Switch	Audio Jacks:6.35MM_STEREO_SWITCHED_JACK	Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)	
+IN_LOW_1	IN_LOW		Connector:AudioJack2_Switch	Audio Jacks:6.35MM_STEREO_SWITCHED_JACK	Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)	
+
+L1			5m			Device:L	Inductor_THT:L_Radial_D6.0mm_P4.00mm	Inductor	
+
+GAIN1		B22K		Device:R_POT	Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal	Potentiometer	
+TREBLE1		B220K		Device:R_POT	Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal	Potentiometer	
+MID1		B22K		Device:R_POT	Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal	Potentiometer	
+BASS1		A1M			Device:R_POT	Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal	Potentiometer	
+PRESENCE1	B22K		Device:R_POT	Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal	Potentiometer	
+LEVEL1		A100K		Device:R_POT	Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal	Potentiometer	
+BOOST1		25K			Device:R_POT	Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical	Potentiometer	
+
+R1			10R			Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R2			22K			Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R3			22K			Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R4			1K			Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R5			10K			Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R6			220K		Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R7			22K			Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R8			100R		Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R9			100R		Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R10			10K			Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R11			470R		Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R12			10K			Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R13			68k			Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R14			4K7			Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R15			1K			Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R16			10K			Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+
+U1			TL082		Amplifier_Operational:TL082	Package_DIP:DIP-8_W7.62mm_Socket	Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8	
+U2			TL082		Amplifier_Operational:TL082	Package_DIP:DIP-8_W7.62mm_Socket	Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8	
+
+Vcc1		Vcc			Connector:Conn_01x02_Male	TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal	Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)	
+GND1		GND			Connector:Conn_01x01_Male	Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical	Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)	
+GND2		GND			Connector:Conn_01x01_Male	Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical	Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)	
+OUT1		OUT			Connector:Conn_01x02_Male	TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal	Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)	

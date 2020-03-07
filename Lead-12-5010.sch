@@ -5,9 +5,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "JCM800 5W"
+Title "Master Lead 5010 Preamp"
 Date ""
-Rev "0.3"
+Rev "0.2"
 Comp "Dazz"
 Comment1 ""
 Comment2 ""
@@ -565,53 +565,6 @@ F 3 "~" H 7100 6600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8000 3850 8000 4500
-Connection ~ 8000 4500
-$Comp
-L Diode:1N914 D2
-U 1 1 5E630052
-P 5000 6100
-F 0 "D2" V 4954 6179 50  0000 L CNN
-F 1 "1N914" V 5045 6179 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5000 5925 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5000 6100 50  0001 C CNN
-	1    5000 6100
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N914 D1
-U 1 1 5E63180D
-P 5000 5450
-F 0 "D1" V 4954 5529 50  0000 L CNN
-F 1 "1N914" V 5045 5529 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5000 5275 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5000 5450 50  0001 C CNN
-	1    5000 5450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5000 5950 5000 5750
-$Comp
-L power:GND #PWR09
-U 1 1 5E635F96
-P 5000 6550
-F 0 "#PWR09" H 5000 6300 50  0001 C CNN
-F 1 "GND" H 5005 6377 50  0000 C CNN
-F 2 "" H 5000 6550 50  0001 C CNN
-F 3 "" H 5000 6550 50  0001 C CNN
-	1    5000 6550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5000 6550 5000 6250
-Wire Wire Line
-	5000 5150 5000 5300
-Wire Wire Line
-	5000 5750 5500 5750
-Connection ~ 5000 5750
-Wire Wire Line
-	5000 5750 5000 5600
-Wire Wire Line
 	9850 5000 10300 5000
 Wire Wire Line
 	1650 4000 1650 4200
@@ -663,36 +616,6 @@ Text Label 11200 6750 0    50   ~ 0
 Vref
 Text Label 1200 5350 0    50   ~ 0
 Vcc
-NoConn ~ 4050 3950
-Wire Wire Line
-	4050 3850 8000 3850
-NoConn ~ 4050 3750
-Wire Wire Line
-	4150 3650 4050 3650
-Wire Wire Line
-	4150 3700 4150 3650
-$Comp
-L power:GND #PWR06
-U 1 1 5E624AE2
-P 4150 3700
-F 0 "#PWR06" H 4150 3450 50  0001 C CNN
-F 1 "GND" H 4155 3527 50  0000 C CNN
-F 2 "" H 4150 3700 50  0001 C CNN
-F 3 "" H 4150 3700 50  0001 C CNN
-	1    4150 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack2_Switch IN_LOW_1
-U 1 1 5E621C5E
-P 3850 3850
-F 0 "IN_LOW_1" H 3882 4275 50  0000 C CNN
-F 1 "IN_LOW" H 3882 4184 50  0000 C CNN
-F 2 "Audio Jacks:6.35MM_STEREO_SWITCHED_JACK" H 3850 4050 50  0001 C CNN
-F 3 "~" H 3850 4050 50  0001 C CNN
-	1    3850 3850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 4800 4350 4800
 Wire Wire Line
@@ -1215,8 +1138,6 @@ V+
 Text Label 6700 4600 0    50   ~ 0
 V+
 Text Label 12600 5150 0    50   ~ 0
-V+
-Text Label 5000 5150 0    50   ~ 0
 V+
 $Comp
 L power:PWR_FLAG #FLG0101
