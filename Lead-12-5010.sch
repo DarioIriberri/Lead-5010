@@ -201,17 +201,6 @@ Wire Wire Line
 Wire Wire Line
 	9500 4450 9800 4450
 $Comp
-L Connector:Conn_01x02_Male Vcc1
-U 1 1 5DC75B04
-P 2550 6650
-F 0 "Vcc1" H 2658 6831 50  0000 C CNN
-F 1 "Vcc" H 2658 6740 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 2550 6650 50  0001 C CNN
-F 3 "~" H 2550 6650 50  0001 C CNN
-	1    2550 6650
-	1    0    0    1   
-$EndComp
-$Comp
 L Mechanical:MountingHole H1
 U 1 1 5DBB8077
 P 11350 1550
@@ -471,18 +460,16 @@ Connection ~ 8450 3700
 Connection ~ 8900 3700
 Wire Wire Line
 	6950 7000 6950 7100
-Wire Wire Line
-	2750 6550 2750 6500
 $Comp
 L power:GND #PWR01
 U 1 1 5E5E4B7C
-P 2750 6500
-F 0 "#PWR01" H 2750 6250 50  0001 C CNN
-F 1 "GND" H 2755 6327 50  0000 C CNN
-F 2 "" H 2750 6500 50  0001 C CNN
-F 3 "" H 2750 6500 50  0001 C CNN
-	1    2750 6500
-	-1   0    0    1   
+P 2750 6750
+F 0 "#PWR01" H 2750 6500 50  0001 C CNN
+F 1 "GND" H 2755 6577 50  0000 C CNN
+F 2 "" H 2750 6750 50  0001 C CNN
+F 3 "" H 2750 6750 50  0001 C CNN
+	1    2750 6750
+	1    0    0    -1  
 $EndComp
 NoConn ~ 9150 5050
 $Comp
@@ -1023,22 +1010,6 @@ F 3 "~" H 8050 4600 50  0001 C CNN
 	1    8050 4600
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:Conn_01x02_Male OUT1
-U 1 1 5E2B9C12
-P 14300 4900
-F 0 "OUT1" H 14408 5081 50  0000 C CNN
-F 1 "OUT" H 14408 4990 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 14300 4900 50  0001 C CNN
-F 3 "~" H 14300 4900 50  0001 C CNN
-	1    14300 4900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	14100 4900 14100 5000
-Wire Wire Line
-	14100 4900 13850 4900
-Connection ~ 14100 4900
 Connection ~ 13850 4900
 $Comp
 L Device:CP C19
@@ -1142,4 +1113,39 @@ Text GLabel 5300 3300 1    50   Input ~ 0
 V+
 Text GLabel 4850 6650 2    50   Input ~ 0
 V+
+$Comp
+L Connector:Conn_01x02_Male Vcc1
+U 1 1 5F70304A
+P 2550 6650
+F 0 "Vcc1" H 2658 6831 50  0000 C CNN
+F 1 "Vcc" H 2658 6740 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 2550 6650 50  0001 C CNN
+F 3 "~" H 2550 6650 50  0001 C CNN
+	1    2550 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male OUT1
+U 1 1 5F720707
+P 14450 4900
+F 0 "OUT1" H 14422 4874 50  0000 R CNN
+F 1 "OUT" H 14422 4783 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 14450 4900 50  0001 C CNN
+F 3 "~" H 14450 4900 50  0001 C CNN
+	1    14450 4900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 4900 14250 4900
+$Comp
+L power:GND #PWR0104
+U 1 1 5F72AB85
+P 14250 5000
+F 0 "#PWR0104" H 14250 4750 50  0001 C CNN
+F 1 "GND" H 14255 4827 50  0000 C CNN
+F 2 "" H 14250 5000 50  0001 C CNN
+F 3 "" H 14250 5000 50  0001 C CNN
+	1    14250 5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
